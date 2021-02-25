@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding:0;
+ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.area-principal{
+    background:url("../imagens/netflix.jpg") ;
+    background-size: cover;
+}
+.container{
+    height: 650px;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.664) ;
+}
+.nav-s{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-s img{
+    width: 200px;
+}
+.btn-entrar{
+    border: none;
+    height: 40px;
+    width: 80px;
+    background:rgb(221, 3, 3);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.area-central{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height:500px;
+}
+.area-central h1,h4,h5{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.area-central h1{
+    font-weight: bold;
+    width: 700px;
+    font-size: 50px;
+}
+.area-central h4{
+    font-weight: normal;
+    font-size: 28px;
+    margin: 40px 0;
+}
+.area-central h5{
+    font-weight: normal;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.area-central form{
+    text-align: center;
+}
+.area-central form input{
+    float: left;
+    width: 70%;
+    height: 60px;
+    padding: 15px;
+    margin:0;
+}
+.area-central form button{
+    float: left;
+    width: 200px;
+    height: 60px;
+    margin-left: 1px;
+    border: none;
+    color: white;
+    box-sizing: border-box;
+    background:rgb(221, 3, 3);
+    font-size: 24px;
+}
+.aproveite-tv{
+    background: black;
+    min-height: 450px;
+    border-top: 10px solid rgba(51, 51, 51, 0.815);
+    border-bottom: 10px solid rgba(51, 51, 51, 0.815);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.texto-aproveite-tv{
+    width: 40%;
+    min-width: 500px;
+    height: 450px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.exibicao-tv{
+    width: 40%;
+    min-width: 500px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.aproveite-title{
+    color: white;
+    text-align: left;
+    font-size: 46px;
+    font-weight: bold;
+}
+.aproveite-body{
+    text-align: left;
+    width: 90%;
+    margin-top: 20px;
+    color: white;
+    font-size: 26px;
+}
+.area-tv{
+    position: relative;
+}
+.televisao{
+    width:500px;
+    z-index:2;
+    position: relative;
+}
+.video-tv{
+    position: absolute;
+    top:80px;
+    left: 70px;
+    width: 360px;
+}
