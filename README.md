@@ -6,3 +6,5 @@ Projeto de aprendizado com objetivo de replicar a tela inicial da netflix utiliz
 
 - HTML
 - CSS
+
+<img src="/imagens/demonstração.gif">
