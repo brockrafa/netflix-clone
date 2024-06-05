@@ -8,4 +8,4 @@ Projeto de aprendizado com objetivo de replicar a tela inicial da netflix utiliz
 - CSS
 
 ### Demonstração
-<img src="/imagens/demonstracao.mp4">
+<img src="/imagens/demonstracao.gif">
